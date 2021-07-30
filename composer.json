@@ -1,5 +1,5 @@
 {
-    "name": "sentry/sdk",
+    "name": "dependencies-org/sdk",
     "type": "metapackage",
     "description": "This is a metapackage shipping sentry/sentry with a recommended HTTP client.",
     "keywords": [
@@ -11,6 +11,12 @@
         "crash-reporting",
         "crash-reports"
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/dependencies-org/sentry-php.git",
+            "type": "git"
+        }
+    ],
     "homepage": "http://sentry.io",
     "license": "MIT",
     "authors": [
@@ -20,7 +26,7 @@
         }
     ],
     "require": {
-        "sentry/sentry": "^2.5",
+        "dependencies-org/sentry": "^2.5",
         "http-interop/http-factory-guzzle": "^1.0",
         "symfony/http-client": "^4.3|^5.0"
     },
