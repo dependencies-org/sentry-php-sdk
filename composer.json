@@ -1,5 +1,5 @@
 {
-    "name": "sentry/sdk",
+    "name": "dependencies-org/sdk",
     "type": "metapackage",
     "description": "This is a metapackage shipping sentry/sentry with a recommended HTTP client.",
     "keywords": [
